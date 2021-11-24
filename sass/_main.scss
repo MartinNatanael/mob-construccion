@@ -1,3 +1,4 @@
+
 main {
     max-width: 1440px;
     background-image: url(../images/Fondo.png);
@@ -11,8 +12,40 @@ main {
         .linea {
 
             .columna {
+                display: flex;
+                justify-content: center;
                 padding-top: 20%;
-                
+
+                div {
+                    justify-content: center;
+
+                    h1 {
+                        font-family: Helvetica, sans-serif;
+                        font-style: bold;
+                        font-weight: 800;
+                        font-size: 64px;
+                        line-height: 86px;
+
+                        background: #ccc;
+                        background: linear-gradient(-259deg, #f81f01, #ee076e);
+
+                        -webkit-text-fill-color: transparent;
+                        -webkit-background-clip: text;
+                    }
+
+                    p {
+                        max-width: 790px;
+                        ;
+                        font-family: Helvetica;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 22px;
+                        line-height: 25px;
+                        text-align: center;
+                        color: rgba(255, 255, 255, 0.6);
+
+                    }
+                }
             }
         }
     }
@@ -29,13 +62,7 @@ main {
             text-transform: uppercase;
             letter-spacing: 2px;
             padding: 7%;
-
             display: inline-block;
-
-            // -webkit-transition: .3s;
-            // transition: .3s;
-            // background-color: transparent;
-
             background: rgba(0, 0, 0, 0.06);
             border: 2px solid rgba(255, 255, 255, 0.5);
             box-sizing: border-box;
@@ -43,13 +70,15 @@ main {
 
             &:hover {
                 text-decoration: none;
-                background-color: #f9004d;
+                background-color: #DC0D28;
                 color: rgba(255, 255, 255, 0.6);
-                border: 2px solid #f9004d;
+                border: 2px solid #DC0D28;
                 box-shadow: 0 10px 15px 0 rgb(0 0 0 / 10%);
                 // -webkit-transform: translateY(-5 px);
-                transform: translateY(-10 px);
-                -webkit-transition: .3s;
+                transform: translateY(-10%);
+
+
+
                 transition: .3s;
             }
         }

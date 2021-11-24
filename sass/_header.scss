@@ -2,7 +2,6 @@ header {
     // temporal
     background: #262626;
     background-size: cover;
-    background-position: center;
     // temporal
     max-width: 1440px;
     display: flex;
@@ -72,8 +71,8 @@ header {
                     border-radius: 6px;
                    
                     &:hover{
-                    background-color: #f9004d;
-                    border: 2px solid #f9004d;
+                    background-color: #DC0D28;
+                    border: 2px solid #DC0D28;
                     color: rgba(255, 255, 255, 0.75);
 
                     }
