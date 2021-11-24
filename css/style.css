@@ -1,0 +1,97 @@
+header {
+  background: #262626;
+  background-size: cover;
+  background-position: center;
+  max-width: 1440px;
+  display: flex;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo-mob {
+  padding: 2% 2%;
+}
+header .logo-mob a img {
+  height: 38px;
+}
+header nav {
+  padding-right: 4%;
+  padding-top: 0%;
+}
+header nav ul {
+  width: 60%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+header nav ul li {
+  padding: 14%;
+}
+header nav ul li:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+header nav ul li .link-menu {
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.75);
+}
+header nav ul li .link-menu:hover {
+  color: #DC0D28;
+  border-bottom: 2px solid #DC0D28;
+}
+header nav ul li .btn {
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+}
+header nav ul li .btn:hover {
+  background-color: #f9004d;
+  border: 2px solid #f9004d;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+main {
+  max-width: 1440px;
+  background-image: url(../images/Fondo.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-color: transparent;
+}
+main .contenedor .linea .columna {
+  padding-top: 20%;
+}
+main div a {
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 7%;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.06);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+main div a:hover {
+  text-decoration: none;
+  background-color: #f9004d;
+  color: rgba(255, 255, 255, 0.6);
+  border: 2px solid #f9004d;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-10 px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/*# sourceMappingURL=style.css.map */

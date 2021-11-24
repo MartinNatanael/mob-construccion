@@ -1,0 +1,57 @@
+main {
+    max-width: 1440px;
+    background-image: url(../images/Fondo.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: transparent;
+
+    .contenedor {
+
+        .linea {
+
+            .columna {
+                padding-top: 20%;
+                
+            }
+        }
+    }
+
+
+    div {
+        a {
+            text-decoration: none;
+            font-family: Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 7%;
+
+            display: inline-block;
+
+            // -webkit-transition: .3s;
+            // transition: .3s;
+            // background-color: transparent;
+
+            background: rgba(0, 0, 0, 0.06);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            box-sizing: border-box;
+            border-radius: 6px;
+
+            &:hover {
+                text-decoration: none;
+                background-color: #f9004d;
+                color: rgba(255, 255, 255, 0.6);
+                border: 2px solid #f9004d;
+                box-shadow: 0 10px 15px 0 rgb(0 0 0 / 10%);
+                // -webkit-transform: translateY(-5 px);
+                transform: translateY(-10 px);
+                -webkit-transition: .3s;
+                transition: .3s;
+            }
+        }
+    }
+}
