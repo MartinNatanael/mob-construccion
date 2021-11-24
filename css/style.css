@@ -127,9 +127,12 @@ main div a:hover {
 .sectionCards .contenedor-cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .sectionCards .contenedor-cards .card {
+  width: 320px;
+  height: 251px;
   margin: 1%;
   padding: 4%;
   background: #F6F6F6;
@@ -137,24 +140,44 @@ main div a:hover {
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
-.sectionCards .contenedor-cards .card .card-body {
-  max-width: 320px;
-  max-height: 251px;
+.sectionCards .contenedor-cards .card img {
+  max-width: 53px;
+  max-height: 53px;
+  margin-bottom: 10px;
 }
-.sectionCards .contenedor-cards .card .card-body h5 {
+.sectionCards .contenedor-cards .card h5 {
   font-family: Helvetica;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
+  margin-bottom: 10px;
 }
-.sectionCards .contenedor-cards .card .card-body p {
+.sectionCards .contenedor-cards .card p {
   font-family: Helvetica;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: rgba(0, 0, 0, 0.56);
+}
+.sectionCards .contenedor-cards .card:hover {
+  background: linear-gradient(90deg, #f61b10, #ef0963);
+  transform: translateY(-2.5%);
+  transition: ease-in;
+  transition: 0.4s;
+}
+.sectionCards .contenedor-cards .card:hover h5 {
+  color: #F6F6F6;
+  transform: translateY(-2.5%);
+  transition: 0.3s;
+  transform: scale(1.05, 1.05);
+}
+.sectionCards .contenedor-cards .card:hover p {
+  color: #F6F6F6;
+  transform: translateY(-2.5%);
+  transition: 0.3s;
+  transform: scale(1.05, 1.05);
 }
 
 /*# sourceMappingURL=style.css.map */
