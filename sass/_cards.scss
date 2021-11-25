@@ -1,9 +1,10 @@
 .sectionCards {
-    max-width: 1440px;
-    ;
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     padding: 5%;
+    background-size:cover;
 
     .contenedor-cards {
         display: flex;
